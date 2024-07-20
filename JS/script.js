@@ -48,10 +48,10 @@ $('#coachingProgramsCarousel').owlCarousel({
 
 // * offlineCourses.html File Start
 // ! Join Best Institute Section Start
-let count=0;
+let readBTN=$(".readBtn");
 $(".readBtn").click(()=>{
-    if(count==0){
-        $(".readBtn").parent().prepend(`<div class="content1">
+    if(readBTN.html()=="Read More"){
+        $(".readBtn").parent().prepend(`<div class="prependContent"><div class="content1">
             <p>We aim to provide the most intensive law coaching in Prayagraj. Law Prep Tutorial is the leading law coaching in Prayagraj that provides preparation for all law entrance tests. We also provide comprehensive study material that lets students cover the CLAT syllabus properly. If you are a law aspirant from Prayagraj, then we assure you of the best CLAT coaching in Prayagraj.</p>
           </div>
           <h2 class="common-H2 fs-4 text-start mt-5">Our CLAT Courses in Prayagraj</h2>
@@ -81,10 +81,13 @@ $(".readBtn").click(()=>{
               <h5 style="color: #101828; line-height: 19px; font-size: 16px; font-weight:400;">Competitive Price</h5>
               <p>We know that career dreams matter the most. Therefore, we offer all our CLAT courses at the most competitive price in the market.</p>
             </div>
-          </div>`)
+          </div></div>`)
           $(".readBtn").html("Read Less") 
     }
-    count++
+    else if(readBTN.html()=="Read Less"){
+        $(".readBtn").prev().remove()
+        $(".readBtn").html("Read More") 
+    }
 })
 // ! Join Best Institute Section End
 // * offlineCourses.html File End

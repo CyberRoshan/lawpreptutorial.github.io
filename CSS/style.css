@@ -156,6 +156,7 @@ header img {
   transform: translateY(-15px);
 }
 .strategy-Card:hover .span-red {
+  cursor: pointer;
   color: var(--primary-color);
 }
 /* ! Strategic Preparation Section End */
@@ -452,3 +453,29 @@ footer{
 }
 /* ! Regular Live Classes Section End */
 /* * onlineCourses.html File End */
+/* * studyMaterial.html File Start */
+.material-content>h4{
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  color: var(--theme-black-color);
+}
+.material-content .stars>i{
+  color: #F2C94C;
+}
+.material-content .sSpan{
+  color: var(--para-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.material-content ul>li{
+  list-style: square;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: var(--theme-black-color);
+  margin-bottom: 5px;
+}
+/* * studyMaterial.html File End */
