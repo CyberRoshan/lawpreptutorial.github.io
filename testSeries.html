@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CLAT Mock Test 2025 (Online Mock Papers)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/responsive.css" />
+</head>
+
+<body>
+    <!-- ! Call Button Modal Section Start -->
+    <div class="modal" id="callBtnModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">SUPPORT</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Our friendly team is here to help.</h6>
+                    <div class="mb-2">Call Us: <strong>7 Days 9:30 AM to 7:30 PM</strong></div>
+                    <div class="commonBox">
+                        <p>For CLAT Admission Queries Call</p>
+                        <div class="mb-2"><strong>+91 76659 44999</strong></div>
+                    </div>
+                    <div class="commonBox">
+                        <p>For Judiciary Admission Queries Call</p>
+                        <div class="mb-2"><strong>+91 76655 64455</strong></div>
+                    </div>
+                    <div class="commonBox">
+                        <p>For Live Classes/Technical Queries Call</p>
+                        <div class="mb-2"><strong>+91 76659 04888</strong> / <strong>+91 7851955135</strong></div>
+                    </div>
+                    <div class="commonBox">
+                        <p>For Student Portal & Courier Queries Call</p>
+                        <div class="mb-2"><strong>+91 93529 07311</strong></div>
+                    </div>
+                    <div class="commonBox">
+                        <p>For General Queries Call:</p>
+                        <div class="mb-2"><strong>0291-2655777</strong></div>
+                    </div>
+                </div>
+                <div class="modal-footer ">
+                    <p>For Any Other Queries Mail:</p>
+                    <div class="text-info">support@lawpreptutorial.com</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ! Call Button Modal Section End -->
+    <!-- ! Sign In Modal Section Start -->
+    <div class="modal" id="SignInModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title">Sign In with Mobile Number</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>We will send you an One time Password on this mobile number.</p>
+                    <div class="input-group input-group-lg mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-lg"><i
+                                class="fa-solid fa-phone"></i></span>
+                        <input type="text" class="form-control" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-lg" placeholder="Enter Mobile Number">
+                    </div>
+                    <div class="input-group input-group-lg mb-3">
+                        <span class="input-group-text" id="inputGroup-sizing-lg"><i class="fa-solid fa-lock"></i></span>
+                        <input type="password" class="form-control" aria-label="Sizing example input"
+                            aria-describedby="inputGroup-sizing-lg" placeholder="Enter Password">
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-danger signBtn text-white" type="button">Login Now</button>
+                    </div>
+                    <div class="text-center mt-3">
+                        <p><span class="text-info">Forgot password?</span></p>
+                        <p>Don`t have an account? <span class="text-info">Sign up</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ! Sign In Modal Section End -->
+    <!-- ! Header Section Start -->
+    <header class="container-fluid py-1">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasExample" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon barIcon"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img class="img-fluid" src="images/logo.svg" />
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="onlineCourses.html">Online Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="offlineCourses.html">Offline Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="studyMaterial.html">Study Material</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="testSeries.html">Test series</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="freeResources.html">Free Resources</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Results</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Our Centers</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="btnGroup">
+                    <button class="text-white d-none d-sm-inline" data-bs-toggle="modal" data-bs-target="#callBtnModal">
+                        <i class="fa-solid fa-phone"></i>
+                    </button>
+                    <button type="button" class="btn btn-danger" id="signInBtn" data-bs-toggle="modal"
+                        data-bs-target="#SignInModal">Sign in</button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                    <img class="img-fluid" src="images/logo.svg" />
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <button type="button" class="btn btn-danger w-100">Sign in</button>
+                <ul class="navbar-nav mt-4">
+                    <li class="nav-item">
+                        <a class="nav-link" href="onlineCourses.html">Online Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="offlineCourses.html">Offline Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="studyMaterial.html">Study Material</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="testSeries.html">Test series</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="freeResources.html">Free Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Results</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Our Centers</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- ! Header Section End -->
+    <main>
+        <!-- ! India's Best CLAT Coaching Section Start -->
+        <section class="container-fluid">
+            <div class="container py-5 text-center">
+                <h2 class="common-H2 mb-4">CLAT Mock Test Series 2025</h2>
+                <span class="common-span lh-1">Elevate your preparation with the CLAT Mock Test for the 2025 exam, based
+                    on the latest pattern and syllabus.</span>
+            </div>
+        </section>
+        <!-- ! India's Best CLAT Coaching Section End -->
+        <!-- ! Regular Packages Classes Section Start -->
+        <section class="container-fluid">
+            <div class="container py-5">
+                <h2 class="common-H2 fs-4 text-start">Regular Packages</h2>
+                <div class="row py-3 gy-4 ">
+                    <div class="col-lg-4 col-md-6 testSeries-items">
+                        <div class="border border-2 rounded-2 p-4 w-100 h-100 live-courses" style="background-color: #E3E8EB;">
+                            <div class="course-head d-flex align-items-center column-gap-4">
+                                <img src="images/live-class.svg">
+                                <h3>CLAT 2025 PDF of 15 Mock Tests - 2.0</h3>
+                            </div>
+                            <div class="material-content">
+                                <div class="stars my-2"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star-half-stroke"></i> <span class="sSpan">4.5</span></div>
+                                <ul>
+                                    <li>15 PDFs of Full Length CLAT Mock tests</li>
+                                    <li>400+ Multiple Online Topic Tests for topic wise improvement</li>
+                                    <li>Memorization tips</li>
+                                    <li>Detailed Solution of all mock tests</li>
+                                </ul>
+                                <div class="course-head d-flex justify-content-between align-items-center">
+                                    <div class="fw-semibold my-4">Rs 2,499 <span class="text-decoration-line-through sSpan">
+                                            4,999/-</span> <span class="sSpan fw-bold" style="font-size: 12px;">(Inc.
+                                            18% GST)</span> <span
+                                            class="badge text-bg-info text-white rounded-1 py-1">50.01% OFF
+                                        </span></div>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-outline-danger w-100 text-dark border-2">See Details <i
+                                    class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 testSeries-items">
+                        <div class="border border-2 rounded-2 p-4 h-100 w-100 position-relative live-courses" style="background-color: #E8EEFF;">
+                            <span class="badge text-bg-success position-absolute" id="pos-badge">BEST SELLING</span>
+                            <div class="course-head d-flex  align-items-center column-gap-4">
+                                <img src="images/live-class.svg">
+                                <h3>Essential Test Series (CLAT 2025) 2.0</h3>
+                            </div>
+                            <div class="material-content">
+                                <div class="stars my-2"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star-half-stroke"></i> <span class="sSpan">4.5</span></div>
+                                <ul>
+                                    <li>20 Online Full Length CLAT Mock tests</li>
+                                    <li>400+ Multiple Topic Tests for topic wise improvement</li>
+                                    <li>In-depth analysis of multiple parameters with detailed reports for all mocks tests</li>
+                                </ul>
+                                <div class="course-head d-flex justify-content-between align-items-center">
+                                    <div class="fw-semibold my-4">Rs 2,499 <span class="text-decoration-line-through sSpan">
+                                            5,000/-</span> <span class="sSpan fw-bold" style="font-size: 12px;">(Inc.
+                                            18% GST)</span> <span
+                                            class="badge text-bg-info text-white rounded-1 py-1">50.02% OFF
+                                        </span></div>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-outline-danger w-100 text-dark border-2">See Details <i
+                                    class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 testSeries-items">
+                        <div class="border border-2 rounded-2 p-4 w-100 h-100 position-relative live-courses" style="background-color: #F0E3F9;">
+                            <span class="badge text-bg-success position-absolute" id="pos-badge">BEST SELLING</span>
+                            <div class="course-head d-flex  align-items-center column-gap-4">
+                                <img src="images/live-class.svg">
+                                <h3>Free CLAT Mock Test Series 2025</h3>
+                            </div>
+                            <div class="material-content">
+                                <div class="stars my-2"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star-half-stroke"></i> <span class="sSpan">4.5</span></div>
+                                <ul>
+                                    <li>In-depth analysis on multiple parameters with detailed reports for all mocks tests.</li>
+                                    <li>Artificial intelligence-based LMS Portal for improvement of marks and Rank.</li>
+                                    <li>Personal Access to LMS portal for plethora of resources for CLAT preparation.</li>
+                                </ul>
+                                <div class="course-head d-flex justify-content-between align-items-center">
+                                    <div class="fw-semibold my-2 text-danger fs-5">Free</div>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-outline-danger w-100 text-dark border-2">See Details <i
+                                    class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 testSeries-items">
+                        <div class="border border-2 rounded-2 p-4 w-100 h-100 position-relative live-courses" style="background-color: #DCF4F0;">
+                            <span class="badge text-bg-success position-absolute" id="pos-badge">BEST SELLING</span>
+                            <div class="course-head d-flex  align-items-center column-gap-4">
+                                <img src="images/live-class.svg">
+                                <h3>Basic Test Series (CLAT 2025) 2.0</h3>
+                            </div>
+                            <div class="material-content">
+                                <div class="stars my-2"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star-half-stroke"></i> <span class="sSpan">4.5</span></div>
+                                <ul>
+                                    <li>10 Online Full Length CLAT Mock tests</li>
+                                    <li>400+ Multiple Online Topic Tests for topic wise improvement</li>
+                                    <li>In-depth analysis on multiple parameters with detailed reports for all mocks tests</li>
+                                </ul>
+                                <div class="course-head d-flex justify-content-between align-items-center">
+                                    <div class="fw-semibold my-4">Rs 999 <span class="text-decoration-line-through sSpan">
+                                            1,500/-</span> <span class="sSpan fw-bold" style="font-size: 12px;">(Inc.
+                                            18% GST)</span> <span
+                                            class="badge text-bg-info text-white rounded-1 py-1">33.40% OFF
+                                        </span></div>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-outline-danger w-100 text-dark border-2">See Details <i
+                                    class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 testSeries-items">
+                        <div class="border border-2 rounded-2 p-4 w-100 h-100 position-relative live-courses" style="background-color: #FFEED4;">
+                            <span class="badge text-bg-success position-absolute" id="pos-badge">BEST SELLING</span>
+                            <div class="course-head d-flex  align-items-center column-gap-4">
+                                <img src="images/live-class.svg">
+                                <h3>Mini Offline Test Series (CLAT 2025)</h3>
+                            </div>
+                            <div class="material-content">
+                                <div class="stars my-2"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star-half-stroke"></i> <span class="sSpan">4.5</span></div>
+                                <ul>
+                                    <li>10 Full Length Printed Mock tests</li>
+                                    <li>In-depth analysis on multiple parameters with detailed reports for all mocks tests</li>
+                                    <li>Artificial intelligence-based LMS Portal for improvement of marks and Ran</li>
+                                </ul>
+                                <div class="course-head d-flex justify-content-between align-items-center">
+                                    <div class="fw-semibold my-4">Rs 2,999 <span class="text-decoration-line-through sSpan">
+                                            5,000/-</span> <span class="sSpan fw-bold" style="font-size: 12px;">(Inc.
+                                            18% GST)</span> <span
+                                            class="badge text-bg-info text-white rounded-1 py-1">40.02% OFF
+                                        </span></div>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-outline-danger w-100 text-dark border-2">See Details <i
+                                    class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 testSeries-items">
+                        <div class="border border-2 rounded-2 p-4 w-100 h-100 position-relative live-courses" style="background-color: #DCF4F0;">
+                            <span class="badge text-bg-success position-absolute" id="pos-badge">BEST SELLING</span>
+                            <div class="course-head d-flex  align-items-center column-gap-4">
+                                <img src="images/live-class.svg">
+                                <h3>Ultimate Test Series (CLAT 2025)</h3>
+                            </div>
+                            <div class="material-content">
+                                <div class="stars my-2"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star-half-stroke"></i> <span class="sSpan">4.5</span></div>
+                                <ul>
+                                    <li>50 Online Full Length CLAT Mock tests (PDF also to be provided)</li>
+                                    <li>400+ Multiple Online Topic Tests for topic wise improvement</li>
+                                    <li>In-depth analysis on multiple parameters with detailed reports for all mocks tests</li>
+                                </ul>
+                                <div class="course-head d-flex justify-content-between align-items-center">
+                                    <div class="fw-semibold my-4">Rs 5,999 <span class="text-decoration-line-through sSpan">
+                                            1,5000/-</span> <span class="sSpan fw-bold" style="font-size: 12px;">(Inc.
+                                            18% GST)</span> <span
+                                            class="badge text-bg-info text-white rounded-1 py-1">60.01% OFF
+                                        </span></div>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-outline-danger w-100 text-dark border-2">See Details <i
+                                    class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 testSeries-items">
+                        <div class="border border-2 rounded-2 p-4 w-100 h-100 position-relative live-courses" style="background-color: #FFE5E1;">
+                            <span class="badge text-bg-success position-absolute" id="pos-badge">BEST SELLING</span>
+                            <div class="course-head d-flex  align-items-center column-gap-4">
+                                <img src="images/live-class.svg">
+                                <h3>Ultimate Test Series (CLAT 2025)</h3>
+                            </div>
+                            <div class="material-content">
+                                <div class="stars my-2"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                                        class="fa-solid fa-star-half-stroke"></i> <span class="sSpan">4.5</span></div>
+                                <ul>
+                                    <li>50 Online Full Length CLAT Mock tests (PDF also to be provided)</li>
+                                    <li>400+ Multiple Online Topic Tests for topic wise improvement</li>
+                                    <li>In-depth analysis on multiple parameters with detailed reports for all mocks tests</li>
+                                </ul>
+                                <div class="course-head d-flex justify-content-between align-items-center">
+                                    <div class="fw-semibold my-4">Rs 5,999 <span class="text-decoration-line-through sSpan">
+                                            1,5000/-</span> <span class="sSpan fw-bold" style="font-size: 12px;">(Inc.
+                                            18% GST)</span> <span
+                                            class="badge text-bg-info text-white rounded-1 py-1">60.01% OFF
+                                        </span></div>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-outline-danger w-100 text-dark border-2">See Details <i
+                                    class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ! Regular Packages Classes Section End -->
+         <!-- ! Why Choose Section Start -->
+      <section class="container-fluid">
+        <div class="container py-5">
+          <h2 class="common-H2">
+            Why Choose Law Prep Tutorial for Your Legal Aspirations?
+          </h2>
+          <div class="row py-5 row-gap-lg-5 row-gap-4">
+            <div class="col-lg-6 col-12 d-flex column-gap-2">
+              <div class="why-points-image">
+                <img src="images/why-medal.svg" />
+              </div>
+              <div class="why-points--content">
+                <h6>23 YEARS OF EXCELLENCE</h6>
+                <p>
+                  With more than two decades of expertise, we bring you a solid
+                  foundation for success. Join us and tap into a wealth of
+                  resources and coaching by experts.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-12 d-flex column-gap-2">
+              <div class="why-points-image">
+                <img src="images/why-students.svg" />
+              </div>
+              <div class="why-points--content">
+                <h6>1,00,000+ Students Trained</h6>
+                <p>
+                  We have successfully trained over 100,000 students to begin
+                  successful careers in law fields, and this figure continues to
+                  grow.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-12 d-flex column-gap-2">
+              <div class="why-points-image">
+                <img src="images/why-selections.svg" />
+              </div>
+              <div class="why-points--content">
+                <h6>500+ NLU Selections Every Year</h6>
+                <p>
+                  As the best CLAT coaching institute in India, we take pride in
+                  our achievement of having the highest number of students
+                  selected in the NLUs and CLAT colleges.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-12 d-flex column-gap-2">
+              <div class="why-points-image">
+                <img src="images/why-top--notch.svg" />
+              </div>
+              <div class="why-points--content">
+                <h6>Top-notch Instructors</h6>
+                <p>
+                  We bestow the largest and most experienced faculty team, with
+                  an average experience ranging from 10 to 20 years in the CLAT
+                  & Judiciary Industry.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-12 d-flex column-gap-2">
+              <div class="why-points-image">
+                <img src="images/why-branches.svg" />
+              </div>
+              <div class="why-points--content">
+                <h6>20+ All India Branches</h6>
+                <p>
+                  Law Prep Tutorial has more than 20 offline centers around the
+                  country. You can join our offline coaching programs as well as
+                  online programs.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-12 d-flex column-gap-2">
+              <div class="why-points-image">
+                <img src="images/why-hybrid.svg" />
+              </div>
+              <div class="why-points--content">
+                <h6>Hybrid Model</h6>
+                <p>
+                  Choose from in-person or online classes for flexible learning.
+                  Through our online platform we've successfully educated over
+                  10,000+ students.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ! Why Choose Section End -->
+       <!-- ! FAQs Section Start -->
+      <section class="container-fluid">
+        <div class="container text-center py-5">
+          <h2 class="common-H2">FAQs About Law Prep Tutorial</h2>
+          <span class="common-span"
+            >Find answers to your common questions about Law Prep Tutorial and
+            Law Prep Judiciary</span
+          >
+          <div
+            class="accordion accordion-flush py-5 text-start"
+            id="accordionFlushExample"
+          >
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  How can I book a free counselling session?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  At Law Prep Tutorial, our committed team of counselors is
+                  ready to assist you. To schedule a counseling session, please
+                  reach out to the provided contact number -+91-7665944999 ,
+                  +91-9414143101 & +91-9351518383.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  What coaching programs does Law Prep Tutorial offer?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <strong>Law Prep Tutorial</strong> offers offline and online
+                  coaching for CLAT, AILET, SLAT, LSAT, MHCET, AIL LET, and CUET
+                  law entrance exams. <br />Additionally, we have
+                  <strong>Law Prep Judiciary</strong> section, providing
+                  coaching for various state-level judiciary exams including
+                  RJS, UP PCS J, Delhi Judiciary, MP Judiciary, Gujarat
+                  Judiciary, Bihar Judiciary, Haryana Judiciary, and more.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  What is the official contact number of Law Prep Tutorial?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  You can contact us on the given numbers: +91-7665944999 ,
+                  +91-9414143101 & +91-9351518383.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collfoure"
+                  aria-expanded="false"
+                  aria-controls="flush-collfoure"
+                >
+                  How does Law Prep Tutorial ensure high-quality preparation for
+                  its students?
+                </button>
+              </h2>
+
+              <div
+                id="flush-collfoure"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Our institute prides itself on a structured coaching
+                  methodology that includes experienced teachers, law experts,
+                  and personalized mentorship. We use premium, scientifically
+                  designed study materials, AI-based learning management
+                  systems, and conduct regular Student Performance Analyses to
+                  ensure each student's needs are met effectively.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collFive"
+                  aria-expanded="false"
+                  aria-controls="flush-collFive"
+                >
+                  How can I enroll in the coaching programs offered by Law Prep
+                  Tutorial?
+                </button>
+              </h2>
+              <div
+                id="flush-collFive"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Interested candidates can enroll through our website, contact
+                  us via phone or email, or visit any of our centers in over 25
+                  cities across India for in-person consultation and
+                  registration.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collSix"
+                  aria-expanded="false"
+                  aria-controls="collSix"
+                >
+                  Does Law Prep Tutorial offer any scholarships or financial aid
+                  for students?
+                </button>
+              </h2>
+              <div
+                id="collSix"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Yes. We offer up to <strong>100% scholarship</strong> to CLAT
+                  students. You have to apply and take the LPSAT (Law Prep
+                  Scholarship Admission Test) at any offline center or online.
+                  Based on your score, the scholarship is offered.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collSeven"
+                  aria-expanded="false"
+                  aria-controls="collSeven"
+                >
+                  Does Law Prep Tutorial offer any scholarships or financial aid
+                  for students?
+                </button>
+              </h2>
+              <div
+                id="collSeven"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Yes. We offer up to <strong>100% scholarship</strong> to CLAT
+                  students. You have to apply and take the LPSAT (Law Prep
+                  Scholarship Admission Test) at any offline center or online.
+                  Based on your score, the scholarship is offered.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ! FAQs Section End -->
+       <!-- ! Join Best Institute Section Start -->
+       <section class="container-fluid">
+        <div class="container py-5 contentContainer">
+          <h2 class="common-H2 fs-4 text-start">Brief Information About CLAT Exam</h2>
+          <div class="content1">
+            <p>It is a highly competitive exam, and the competition increases every year. Thus, to crack the exam and secure a seat in a prestigious law school, it is essential to have a thorough preparation strategy, and practicing mock tests is a crucial part of it.</p>
+            <h4 class="text-danger fw-bold fs-5">What is CLAT Mock Test?</h4>
+          </div>
+          <div>
+            <button type="button" class="btn btn-link text-danger fw-bold text-end w-100 text-decoration-none readBtn" style="font-size: 14px;">Read More</button>
+          </div>
+        </div>
+      </section>
+      <!-- ! Join Best Institute Section End -->
+        <!-- ! Footer Section Start -->
+        <footer class="container-fluid">
+            <div class="container py-5 footer1 border-bottom border-white">
+                <div class="row justify-content-between footer1-row">
+                    <div class="col-md-4 col-12 d-flex justify-content-between">
+                        <div class="col-12">
+                            <img src="images/logo.svg" class="footer-logo" />
+                            <p>
+                                Need Law Coaching as discreet as you? You are on the right page.
+                                Relevant! Ranked! Your bright future begins now! Law Prep
+                                Tutorial is the key to your secure future.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-12 d-flex justify-content-between footer1-right">
+                        <div class="col-md-4 ">
+                            <h4 class="common-span">Important Link</h4>
+                            <div class="d-flex flex-column infoGrp">
+                                <span>About Us</span>
+                                <span>Privacy Policy</span>
+                                <span>Terms & Conditions</span>
+                                <span>FAQs</span>
+                                <span>Our Centers</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ">
+                            <div class="d-flex flex-column infoGrp">
+                                <span class="mt-4">Blog</span>
+                                <span>Refund & Cancellation Policy</span>
+                                <span>Contact Us</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ">
+                            <h4 class="common-span">Contact Us</h4>
+                            <p>First Floor, EC - 22A, Shastri Circle, opp. Steel Bhawan, Adarsh Society, Sector-H,
+                                Shastri Nagar, Jodhpur, Rajasthan - 342003</p>
+                            <p>+91 7665944999</p>
+                            <p>support@lawpreptutorial.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-4 footer2 d-flex justify-content-between">
+                <p>2024 LPT EDTECH PRIVATE LIMITED . All Rights Reserved | <a href="">Design By Roshan Chaurasia</a></p>
+                <ul class="d-flex">
+                    <li class="mx-3 fs-4"><i class="fa-brands fa-telegram"></i></li>
+                    <li class="mx-3 fs-4"><i class="fa-brands fa-facebook"></i></li>
+                    <li class="mx-3 fs-4"><i class="fa-brands fa-instagram"></i></li>
+                    <li class="mx-3 fs-4"><i class="fa-brands fa-youtube"></i></li>
+                </ul>
+            </div>
+        </footer>
+        <!-- ! Footer Section End -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script src="JS/script.js"></script>
+</body>
+
+</html>

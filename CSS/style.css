@@ -479,3 +479,26 @@ footer{
   margin-bottom: 5px;
 }
 /* * studyMaterial.html File End */
+/* * testSeries.html File Start */
+/* ! Regular Packages Classes Section Start */
+.testSeries-items h3{
+  max-width: 220px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.testSeries-items button{
+  border: 1px solid #ccc;
+}
+.testSeries-items button:hover{
+  color: var(--white-color) !important;
+}
+.testSeries-items #pos-badge{
+  top: 40px;
+  right: -25px;
+  transform: rotate(-90deg);
+  border-radius: 5px 0px 0px 5px;
+  background-color: #27AE60 !important;
+}
+/* ! Regular Packages Classes Section End */
+/* * testSeries.html File End */
