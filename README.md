@@ -2,11 +2,6 @@
 
 Welcome to the LawPrepTutorial repository! This project is dedicated to providing comprehensive resources and tutorials for law students. It utilizes modern web technologies to create an engaging and user-friendly experience.
 
-## Table of Contents
-- [Features](#features-✨)
-- [Technologies Used](#technologies-used-💻)
-- [Contact](#contact-📬)
-
 ## Features ✨
 - **Responsive Design:** 📱🖥️ Ensures compatibility across various devices and screen sizes.
 - **Interactive Elements:** 🔄 Utilizes JavaScript and jQuery for dynamic content.
