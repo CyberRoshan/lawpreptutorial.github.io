@@ -1,46 +1,46 @@
 // ! Strategic Preparation Section Start
 $('#strategicPrepCarousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:false,
-    dots:false,
-    mouseDrag:true,
-    touchDrag:true,
-    autoplayTimeout:3000,
-    responsive:{
-        0:{
-            items:1,
-            autoplay:true,
+    loop: true,
+    margin: 10,
+    nav: false,
+    dots: false,
+    mouseDrag: true,
+    touchDrag: true,
+    autoplayTimeout: 3000,
+    responsive: {
+        0: {
+            items: 1,
+            autoplay: true,
         },
-        600:{
-            items:2,
-            autoplay:true,
+        600: {
+            items: 2,
+            autoplay: true,
         },
-        1000:{
-            items:4
+        1000: {
+            items: 4
         }
     }
 })
 // ! Strategic Preparation Section End
 // ! Coaching Programs Section Start
 $('#coachingProgramsCarousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:false,
-    dots:false,
-    autoplayHoverPause:true,
-    autoplayTimeout:2000,
-    responsive:{
-        0:{
-            items:1,
-            autoplay:true,
+    loop: true,
+    margin: 10,
+    nav: false,
+    dots: false,
+    autoplayHoverPause: true,
+    autoplayTimeout: 2000,
+    responsive: {
+        0: {
+            items: 1,
+            autoplay: true,
         },
-        600:{
-            items:2,
-            autoplay:true,
+        600: {
+            items: 2,
+            autoplay: true,
         },
-        1000:{
-            items:2
+        1000: {
+            items: 2
         }
     }
 })
@@ -48,9 +48,9 @@ $('#coachingProgramsCarousel').owlCarousel({
 
 // * offlineCourses.html File Start
 // ! Join Best Institute Section Start
-let readBTN=$(".readBtn");
-$(".readBtn").click(()=>{
-    if(readBTN.html()=="Read More"){
+let readBTN = $(".readBtn");
+$(".readBtn").click(() => {
+    if (readBTN.html() == "Read More") {
         $(".readBtn").parent().prepend(`<div class="prependContent"><div class="content1">
             <p>We aim to provide the most intensive law coaching in Prayagraj. Law Prep Tutorial is the leading law coaching in Prayagraj that provides preparation for all law entrance tests. We also provide comprehensive study material that lets students cover the CLAT syllabus properly. If you are a law aspirant from Prayagraj, then we assure you of the best CLAT coaching in Prayagraj.</p>
           </div>
@@ -82,12 +82,18 @@ $(".readBtn").click(()=>{
               <p>We know that career dreams matter the most. Therefore, we offer all our CLAT courses at the most competitive price in the market.</p>
             </div>
           </div></div>`)
-          $(".readBtn").html("Read Less") 
+        $(".readBtn").html("Read Less")
     }
-    else if(readBTN.html()=="Read Less"){
+    else if (readBTN.html() == "Read Less") {
         $(".readBtn").prev().remove()
-        $(".readBtn").html("Read More") 
+        $(".readBtn").html("Read More")
     }
 })
 // ! Join Best Institute Section End
 // * offlineCourses.html File End
+
+//  * results.html File Start
+// ! Results Section Start
+//   ? Work on Pending
+// ! Results Section End
+//  * results.html File End

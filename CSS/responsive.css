@@ -1,105 +1,94 @@
-@media only screen and (min-width:200px) and (max-width:575px){
-    /* ! Our Toppers Section Start */
-    .topper-box{
-        width: 100%;
-    }
-    /* ! Our Toppers Section End */
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  /* ! Our Toppers Section Start */
+  .topper-box {
+    width: 100%;
+  }
+  /* ! Our Toppers Section End */
 }
 
-
-
-
-
-
-
-@media only screen and (min-width:576px) and (max-width:991px){
-    /* ! Our Toppers Section Start */
-    .topper-box{
-        width: 45%;
-    }
-    /* ! Our Toppers Section End */
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+  /* ! Our Toppers Section Start */
+  .topper-box {
+    width: 45%;
+  }
+  /* ! Our Toppers Section End */
 }
 
+@media only screen and (min-width: 200px) and (max-width: 991px) {
+  /* ! Strategic Preparation Section Start */
+  .common-H2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .common-span {
+    font-size: 15px;
+    font-weight: 19px;
+  }
+  .strategy-Card {
+    width: 100% !important;
+  }
+  /* ! Strategic Preparation Section End */
+  /* ! Coaching Programs Section Start */
+  .overlay-head {
+    display: none;
+  }
+  /* ! Coaching Programs Section Start */
+  /* ! Our Toppers Section Start */
+  .main-OurToppers {
+    background-size: cover;
+  }
+  /* ! Our Toppers Section Start */
+  /* ! Recent News Section Start */
+  .news1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .news1 > figure,
+  .news1 > figure > img {
+    width: 100%;
+    height: 100%;
+  }
+  .news-content {
+    width: 100%;
+  }
+  /* ! Recent News Section Start */
+  /* ! Footer Section Start */
+  .footer1 > .footer1-row {
+    flex-direction: column;
+  }
+  .footer1-right {
+    flex-direction: column;
+  }
+  .footer2 {
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* ! Footer Section End */
+  /* * onlineCourses.html File Start */
+  /* ! Regular Live Classes Section Start */
+  .live-courses {
+    text-align: center;
+  }
+  .live-courses > h2 {
+    text-align: center !important;
+    margin: 20px 0px;
+  }
+  .course-head {
+    flex-direction: column;
+    gap: 10px;
+  }
+  /* ! Regular Live Classes Section End */
+  /* * onlineCourses.html File End */
 
-
-
-
-
-
-@media only screen and (min-width:200px) and (max-width:991px){
-    /* ! Strategic Preparation Section Start */
-    .common-H2{
-        font-size: 20px;
-        line-height: 30px;
-    }
-    .common-span{
-        font-size: 15px;
-        font-weight: 19px;
-    }
-    .strategy-Card{
-        width: 100% !important;
-    }
-    /* ! Strategic Preparation Section End */
-    /* ! Coaching Programs Section Start */
-    .overlay-head{
-        display: none;
-    }
-    /* ! Coaching Programs Section Start */
-    /* ! Our Toppers Section Start */
-    .main-OurToppers{
-        background-size: cover;
-    }
-    /* ! Our Toppers Section Start */
-    /* ! Recent News Section Start */
-    .news1{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .news1>figure,.news1>figure>img{
-        width: 100%;
-        height: 100%;
-    }
-    .news-content{
-        width: 100%;
-    }
-    /* ! Recent News Section Start */
-    /* ! Footer Section Start */
-    .footer1>.footer1-row{
-        flex-direction: column;
-    }
-    .footer1-right{
-        flex-direction: column;
-    }
-    .footer2{
-        text-align: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    /* ! Footer Section End */
-    /* * onlineCourses.html File Start */
-    /* ! Regular Live Classes Section Start */
-    .live-courses{
-        text-align: center;
-    }
-    .live-courses>h2{
-        text-align: center !important;
-        margin: 20px 0px;
-    }
-    .course-head{
-        flex-direction: column;
-        gap: 10px;
-    }
-    /* ! Regular Live Classes Section End */
-    /* * onlineCourses.html File End */
-
-    /* * offlineCourses.html File Start */
-    /* ! Prayagraj Contact No. Section Start */
-    .contactNum{
-        flex-direction: column;
-        text-align: center;
-        gap: 20px;
-    }
-    /* ! Prayagraj Contact No. Section End */
-    /* * offlineCourses.html File End */
+  /* * offlineCourses.html File Start */
+  /* ! Prayagraj Contact No. Section Start */
+  .contactNum {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  /* ! Prayagraj Contact No. Section End */
+  /* * offlineCourses.html File End */
 }

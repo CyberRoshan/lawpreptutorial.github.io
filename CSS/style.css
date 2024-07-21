@@ -11,15 +11,15 @@
   --para-color: #667085;
 }
 /* ! Call Button Modal Section Start */
-.commonBox strong{
+.commonBox strong {
   color: var(--primary-color);
 }
 /* ! Call Button Modal Section End */
 /* ! Sign In Modal Section Start */
-#SignInModal{
+#SignInModal {
   margin-top: 100px;
 }
-.signBtn{
+.signBtn {
   background-color: var(--primary-color);
   height: 50px;
 }
@@ -258,44 +258,44 @@ p {
 }
 /* ! Why Choose Section End */
 /* ! Meet Mentors Section Start */
-.mentor-box>figure{
-    margin: 0;
+.mentor-box > figure {
+  margin: 0;
 }
-.mentorInfo{
-    background-color: #FFDC44;
-    padding: 30px 10px 10px;
-    border-radius: 20px 20px 0px 0px;
+.mentorInfo {
+  background-color: #ffdc44;
+  padding: 30px 10px 10px;
+  border-radius: 20px 20px 0px 0px;
 }
-.mentorInfo>h6{
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 28px;
-    color: var(--primary-color);
+.mentorInfo > h6 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: var(--primary-color);
 }
-.mentorInfo>p{
-    color: var(--theme-black-color);
-    margin-bottom: 10px;
+.mentorInfo > p {
+  color: var(--theme-black-color);
+  margin-bottom: 10px;
 }
 /* ! Meet Mentors Section End */
 /* ! Our Toppers Section Start */
-.main-OurToppers{
-    background: url('../images/learners-bg.webp') no-repeat;
+.main-OurToppers {
+  background: url("../images/learners-bg.webp") no-repeat;
 }
-.topper-box{
-    border: 0.1px solid white;
-    position: relative;
-    padding: 0px 20px;
+.topper-box {
+  border: 0.1px solid white;
+  position: relative;
+  padding: 0px 20px;
 }
-.topper-box:hover .playIcon{
-    box-shadow: 0px 0px 0px 10px rgba(0, 0, 0,0.3);
+.topper-box:hover .playIcon {
+  box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
-.playIcon{
-    border-radius: 50%;
-    transition: 0.5s;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+.playIcon {
+  border-radius: 50%;
+  transition: 0.5s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 /* ! Our Toppers Section End */
 /* ! Recent News Section Start */
@@ -363,73 +363,74 @@ p {
 }
 /* ! Recent News Section End */
 /* ! FAQs Section Start */
-.main-faq{
-    background-color: #F1F1F1;
+.main-faq {
+  background-color: #f1f1f1;
 }
-.accordion-flush>.accordion-item,.accordion-button{
-    background-color: transparent;
+.accordion-flush > .accordion-item,
+.accordion-button {
+  background-color: transparent;
 }
-.accordion-button{
-    padding-top: 25px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid #ccc;
+.accordion-button {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ccc;
 }
 /* ! FAQs Section End */
 /* ! Footer Section Start */
-footer{
+footer {
   background-color: var(--secondary-color);
 }
-.footer-logo{
+.footer-logo {
   width: 200px;
   margin-bottom: 20px;
 }
-.footer1 p{
+.footer1 p {
   font-style: 15px;
   font-weight: 300;
   line-height: 24px;
   color: #eaecf0;
 }
-.infoGrp>span{
-  color: #EAECF0;
+.infoGrp > span {
+  color: #eaecf0;
   margin-bottom: 15px;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
 }
-.infoGrp>span:hover, .footer1 p:hover{
+.infoGrp > span:hover,
+.footer1 p:hover {
   cursor: pointer;
   color: var(--white-color);
 }
-.footer2>p>a{
+.footer2 > p > a {
   color: var(--para-color);
   text-decoration: none;
 }
-.footer2>p>a:hover{
+.footer2 > p > a:hover {
   cursor: pointer;
-  color: #EAECF0;
+  color: #eaecf0;
 }
-.footer2>ul>li{
+.footer2 > ul > li {
   color: var(--para-color);
 }
-.footer2>ul>li:nth-child(1):hover{
-  color: #0088CC;
+.footer2 > ul > li:nth-child(1):hover {
+  color: #0088cc;
 }
-.footer2>ul>li:nth-child(2):hover{
-  color: #316FF6;
+.footer2 > ul > li:nth-child(2):hover {
+  color: #316ff6;
 }
-.footer2>ul>li:nth-child(3):hover{
-  color: #962FBF;
+.footer2 > ul > li:nth-child(3):hover {
+  color: #962fbf;
 }
-.footer2>ul>li:nth-child(4):hover{
+.footer2 > ul > li:nth-child(4):hover {
   color: red;
 }
 /* ! Footer Section End */
 
-
 /* * onlineCourses.html File Start */
 /* ! Regular Live Classes Section Start */
-.pointsGrp>span{
-  background-color: #F6EFEF;
+.pointsGrp > span {
+  background-color: #f6efef;
   padding: 5px;
   font-size: 12px;
   font-weight: 400;
@@ -437,40 +438,40 @@ footer{
   color: var(--para-color);
   border-radius: 5px;
 }
-.pointsGrp>span>strong{
+.pointsGrp > span > strong {
   color: #667085;
 }
-.course-head>button{
+.course-head > button {
   border: 1px solid #ccc;
   color: var(--theme-black-color);
   border-radius: 5px;
 }
-.fa-chevron-right{
+.fa-chevron-right {
   font-size: 10px;
 }
-.live-courses>h2{
+.live-courses > h2 {
   margin: 10px 0px;
 }
 /* ! Regular Live Classes Section End */
 /* * onlineCourses.html File End */
 /* * studyMaterial.html File Start */
-.material-content>h4{
+.material-content > h4 {
   cursor: pointer;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
   color: var(--theme-black-color);
 }
-.material-content .stars>i{
-  color: #F2C94C;
+.material-content .stars > i {
+  color: #f2c94c;
 }
-.material-content .sSpan{
+.material-content .sSpan {
   color: var(--para-color);
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
 }
-.material-content ul>li{
+.material-content ul > li {
   list-style: square;
   font-size: 14px;
   font-weight: 400;
@@ -481,41 +482,90 @@ footer{
 /* * studyMaterial.html File End */
 /* * testSeries.html File Start */
 /* ! Regular Packages Classes Section Start */
-.testSeries-items h3{
+.testSeries-items h3 {
   max-width: 220px;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
 }
-.testSeries-items button{
+.testSeries-items button {
   border: 1px solid #ccc;
 }
-.testSeries-items button:hover{
+.testSeries-items button:hover {
   color: var(--white-color) !important;
 }
-.testSeries-items #pos-badge{
+.testSeries-items #pos-badge {
   top: 40px;
   right: -25px;
   transform: rotate(-90deg);
   border-radius: 5px 0px 0px 5px;
-  background-color: #27AE60 !important;
+  background-color: #27ae60 !important;
 }
 /* ! Regular Packages Classes Section End */
 /* * testSeries.html File End */
 
 /* * ourCenters.html File Start */
-.contact-box{
+.contact-box {
   width: 100%;
   height: 150px;
   overflow-y: scroll;
 }
-.contact-box>p{
+.contact-box > p {
   margin-bottom: 12px;
 }
-.contact-box>p>i{
+.contact-box > p > i {
   font-size: 17px;
 }
-.contact-box::-webkit-scrollbar{
+.contact-box::-webkit-scrollbar {
   width: 3px;
 }
 /* * ourCenters.html File End */
+/* * results.html File Start */
+.button-group > .btn {
+  background-color: #28303e;
+  border-color: #28303e;
+  color: var(--white-color);
+}
+.button-group > .btn:hover {
+  background-color: #ffdc44 !important;
+  color: var(--secondary-color);
+  border-color: #ffdc44;
+}
+.activeBtnClass {
+  background-color: #ffdc44 !important;
+  color: var(--secondary-color) !important;
+  border-color: #ffdc44 !important;
+}
+/* ! Results Section Start  */
+.result-items {
+  height: 350px;
+  /* overflow: hidden; */
+}
+.result-items img {
+  height: 340px;
+  width: 100%;
+}
+.result-items .result-content {
+  background-image: linear-gradient(180deg, transparent, #000);
+  width: 100%;
+  bottom: -11%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.result-content > h5 {
+  font-size: 16px;
+  padding: 5px 0px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.result-content > p {
+  color: white;
+  font-size: 16px;
+}
+.loadMoreBtn {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  font-size: 16px;
+}
+/* ! Results Section End */
+/* * results.html File End */
