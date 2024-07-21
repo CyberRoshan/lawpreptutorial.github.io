@@ -1,6 +1,6 @@
 # LawPrepTutorial 📚⚖️
 
-Welcome to the LawPrepTutorial repository! This project is dedicated to providing comprehensive resources and tutorials for law students. It utilizes modern web technologies to create an engaging and user-friendly experience.
+Welcome to the LawPrepTutorial repository! This project is a clone of 8 pages dedicated to providing comprehensive resources and tutorials for law students. It utilizes modern web technologies to create an engaging and user-friendly experience.
 
 ## Features ✨
 - **Responsive Design:** 📱🖥️ Ensures compatibility across various devices and screen sizes.
