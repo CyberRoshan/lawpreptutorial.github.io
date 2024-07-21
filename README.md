@@ -15,6 +15,9 @@ Welcome to the LawPrepTutorial repository! This project is a clone of 8 pages de
 - **jQuery:** A fast, small, and feature-rich JavaScript library.
 - **Bootstrap:** A powerful front-end framework for building responsive, mobile-first projects.
 
+## Live Demo 🌐
+You can see the deployed/live website [here](https://cyberroshan.github.io/lawpreptutorial.github.io/).
+
 ## Contact 📬
 For any inquiries or feedback, please reach out to:
 - **Roshan Chaurasia:** [roshanchaurasia990@gmail.com](mailto:roshanchaurasia990@gmail.com)
