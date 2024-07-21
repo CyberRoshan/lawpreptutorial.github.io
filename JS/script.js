@@ -45,7 +45,32 @@ $('#coachingProgramsCarousel').owlCarousel({
     }
 })
 // ! Coaching Programs Section End
-
+// ! Meet Mentors Section Start
+$('#meetMentorsCarousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false,
+    dots: true,
+    mouseDrag: true,
+    touchDrag: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+    responsive: {
+        0: {
+            items: 1,
+            autoplay: true,
+        },
+        600: {
+            items: 2,
+            autoplay: true,
+        },
+        1000: {
+            items: 4,
+            autoplay:true
+        }
+    }
+})
+// ! Meet Mentors Section End
 // * offlineCourses.html File Start
 // ! Join Best Institute Section Start
 let readBTN = $(".readBtn");
